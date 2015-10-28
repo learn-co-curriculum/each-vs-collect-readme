@@ -1,6 +1,7 @@
 tags:
   - readme
-  - iteration, collections
+  - iteration
+  - collections
 languages:
   - ruby
 resources: 0
