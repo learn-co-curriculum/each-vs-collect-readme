@@ -18,7 +18,7 @@ For our examples we will be building a `hamburger` method that takes an array of
 - Return the manipulated data.
 
 ##Each
-The most important thing to remember about each is that it does not change the return value. It implicitly returns the original array.
+The most important thing to remember about `each` is that it does not change the return value. It implicitly returns the original array.
 
 ```ruby
 toppings = ["pickles", "mushrooms", "bacon"]
@@ -41,13 +41,13 @@ I love bacon on my burgers!
 
 `["pickles", "mushrooms", "bacon"]`
 
-####If we want to change the return value, we have to explicitly tell it to do so.
+####If we want a different return value, we have to explicitly tell it to do so.
 
 In this version of our burger method we set an empty array called `my_statements`, which we will then explicitly return after we finish our loop.
 Inside our `each` statement loop, we manipulate each topping by interpolating it inside a string. We then push that string into our `my_statements` array.
 After we iterate over each topping in our array, we return the new `my_statements` array.
 
-You'll notice that since the each doesn't return the thing we want, we have to add an extra line at the end that returns the my_statements array.
+You'll notice that since the `each` doesn't return the thing we want, we have to add an extra line at the end that returns the `my_statements` array.
 
 ```
 def hamburger(toppings)
@@ -66,7 +66,7 @@ end
   "I love bacon on my burgers!"
 ]
 ```
-However, if we do want to change the return value, there is a handy method called `map`, also known as `collect`. These two methods are synonyms for each other and they return a new return value every time. Map and Collect are abstractions of our `each` method. An abstraction is the process of taking away or removing characteristics from something in order to reduce it to a set of essential characteristics. Let's take a look at a few examples.
+However, if we do want a different return value, there is a handy method called `map`, also known as `collect`. These methods are abstractions of our `each` method. An abstraction is the process of taking away or removing characteristics from something in order to reduce it to a set of essential characteristics. Let's take a look at a few examples.
 
 
 ##Map & Collect
