@@ -125,4 +125,4 @@ end
 - If you want the transformations to be reflected in the return value use `map` or `collect`.
 - If you want to return the original return value use `each`.
 
-<a href='https://learn.co/lessons/each-vs-collect-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/each-vs-collect-readme' title='Iteration: Each Vs. Collect'>Iteration: Each Vs. Collect</a> on Learn.co and start learning to code for free.</p>
