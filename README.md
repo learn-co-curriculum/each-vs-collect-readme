@@ -83,6 +83,8 @@ end
 Since `map` and `collect` are the same thing, this can be expressed exactly the same way with `collect`, like the following.
 
 ```ruby
+toppings = ["pickles", "mushrooms", "bacon"]
+
 def hamburger(toppings)
   toppings.collect do |topping|
     puts "I love #{topping} on my burgers!"
@@ -126,3 +128,5 @@ end
 - If you want to return the original return value use `each`.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/each-vs-collect-readme' title='Iteration: Each Vs. Collect'>Iteration: Each Vs. Collect</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/each-vs-collect-readme'>Collect and Return Values</a> on Learn.co and start learning to code for free.</p>
