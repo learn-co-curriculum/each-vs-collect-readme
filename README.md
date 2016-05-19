@@ -61,8 +61,8 @@ end
 ###Our new return value:
 ```
 [
-  "I love pickles on my burgers!"
-  "I love mushrooms on my burgers!"  
+  "I love pickles on my burgers!",
+  "I love mushrooms on my burgers!",
   "I love bacon on my burgers!"
 ]
 ```
@@ -118,8 +118,8 @@ end
 
 ```
 [
-  "I love pickles on my burgers!"
-  "I love mushrooms on my burgers!"  
+  "I love pickles on my burgers!",
+  "I love mushrooms on my burgers!",
   "I love bacon on my burgers!"
 ]
 ```
@@ -130,3 +130,5 @@ end
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/each-vs-collect-readme' title='Iteration: Each Vs. Collect'>Iteration: Each Vs. Collect</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/each-vs-collect-readme'>Collect and Return Values</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/each-vs-collect-readme'>Collect and Return Values</a> on Learn.co and start learning to code for free.</p>
