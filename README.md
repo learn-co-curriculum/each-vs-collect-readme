@@ -100,7 +100,7 @@ I love bacon on my burgers!
 ```
 ####This method will return:
 
-`[nil, nil, nil, nil]`
+`[nil, nil, nil]`
 
 ####Why does it return nil?
 If you look inside our `map` loop, you will see that we are using `puts`, which always has a `nil` return value. What this is telling us is that our return value is indeed being changed by `map`. Let's look at another example.
@@ -130,3 +130,5 @@ end
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/each-vs-collect-readme' title='Iteration: Each Vs. Collect'>Iteration: Each Vs. Collect</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/each-vs-collect-readme'>Collect and Return Values</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/each-vs-collect-readme'>Collect and Return Values</a> on Learn.co and start learning to code for free.</p>
