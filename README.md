@@ -49,7 +49,7 @@ After we iterate over each topping in our array, we return the new `my_statement
 
 You'll notice that since the `each` doesn't return the thing we want, we have to add an extra line at the end that returns the `my_statements` array.
 
-```
+```ruby
 def hamburger(toppings)
   my_statements = []
   toppings.each do |topping|
@@ -59,12 +59,10 @@ def hamburger(toppings)
 end
 ```
 ###Our new return value:
-```
-[
-  "I love pickles on my burgers!"
-  "I love mushrooms on my burgers!"  
-  "I love bacon on my burgers!"
-]
+```ruby
+["I love pickles on my burgers!",
+ "I love mushrooms on my burgers!",
+ "I love bacon on my burgers!"]
 ```
 However, if we do want a different return value, there is a handy method called `map`, also known as `collect`. These methods are abstractions of our `each` method. An abstraction is the process of taking away or removing characteristics from something in order to reduce it to a set of essential characteristics. Let's take a look at a few examples.
 
@@ -107,7 +105,7 @@ If you look inside our `map` loop, you will see that we are using `puts`, which 
 
 Here we are no longer using `puts`, but instead implicitly returning what is inside our block. Again showing that `map` will give us a new return value based on the logic inside our block.
 
-```
+```ruby
 def burger(toppings)
   toppings.collect do |topping|
     "I love #{topping} on my burgers"
@@ -116,19 +114,13 @@ end
 ```
 ####Our new return value:
 
-```
-[
-  "I love pickles on my burgers!"
-  "I love mushrooms on my burgers!"  
-  "I love bacon on my burgers!"
-]
+```ruby
+["I love pickles on my burgers",
+ "I love mushrooms on my burgers",
+ "I love bacon on my burgers"]
 ```
 ###Takeaway:
 - If you want the transformations to be reflected in the return value use `map` or `collect`.
 - If you want to return the original return value use `each`.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/each-vs-collect-readme' title='Iteration: Each Vs. Collect'>Iteration: Each Vs. Collect</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/each-vs-collect-readme'>Collect and Return Values</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/each-vs-collect-readme'>Collect and Return Values</a> on Learn.co and start learning to code for free.</p>
