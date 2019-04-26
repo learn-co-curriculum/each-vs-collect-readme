@@ -106,7 +106,7 @@ If you look inside our `map` loop, you will see that we are using `puts`, which 
 Here we are no longer using `puts`, but instead implicitly returning what is inside our block. Again showing that `map` will give us a new return value based on the logic inside our block.
 
 ```ruby
-def burger(toppings)
+def hamburger(toppings)
   toppings.collect do |topping|
     "I love #{topping} on my burgers"
   end
