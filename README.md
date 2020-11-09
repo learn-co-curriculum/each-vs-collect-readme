@@ -1,17 +1,17 @@
-## Iteration: Each Vs. Collect
+# Iteration: Each Vs. Collect
 
 
-### Objectives
+## Objectives
 1. Identify the return values of the `each` and `collect` methods.
 2. Implement the `each` and `collect` methods.
 
-### Overview
+## Overview
 This lesson will give a deeper dive on how to use the `each` and `collect` methods.
 
 
 For our examples we will be building a `hamburger` method that takes an array of `toppings` as an argument.
 
-#### What we want our methods to do
+### What we want our methods to do
 - Take in an array of hamburger toppings.
 - Iterate through each topping, one at a time.
 - Manipulate that data (do something to it).
@@ -119,8 +119,6 @@ end
  "I love mushrooms on my burgers",
  "I love bacon on my burgers"]
 ```
-### Takeaway:
+## Takeaway:
 - If you want the transformations to be reflected in the return value use `map` or `collect`.
 - If you want to return the original return value use `each`.
-
-
